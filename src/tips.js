@@ -46,4 +46,4 @@ console.log(
 console.log(`null && "user" : ${null && "user"}`);
 // → null ::: Left value since it is evaluate to false
 console.log(`"Agnes" && "user":  ${"Agnes" && "user"}`);
-// → user ::: right value since left is evaluate to true
+// → user ::: right value since left is evaluate to true.
