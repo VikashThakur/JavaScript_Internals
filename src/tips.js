@@ -47,3 +47,19 @@ console.log(`null && "user" : ${null && "user"}`);
 // → null ::: Left value since it is evaluate to false
 console.log(`"Agnes" && "user":  ${"Agnes" && "user"}`);
 // → user ::: right value since left is evaluate to true.
+
+function helper() {
+  return {
+    name: "Name",
+    age: 25,
+    address: {
+      toJSON: function () {
+        return "Address is blank!!!";
+      },
+    },
+  };
+}
+
+console.log(JSON.stringify(helper(), ["age", "address"], 5));
+//JSON.stringify takes array of properies to be included in the output
+//to customize the behaviour we can add toJSON method, third parameter is spacer fot formatting
