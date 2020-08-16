@@ -1,5 +1,7 @@
-# JavaScript_Internals
+# JavaScript Internals
 
-JavaScript basic
-use node js to run the file
-run [node <filename> ] ti view the output
+### JavaScript Basics
+
+- Use node js to run the file
+
+- Run [node <filename>] to view the output
